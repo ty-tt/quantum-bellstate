@@ -10,7 +10,8 @@ async function fetchBellState() {
   status.innerText = "Running simulation...";
 
   try {
-    const response = await fetch("http://localhost:8000/bellstate");
+    //const response = await fetch("http://localhost:8000/bellstate"); this one is for running project localy
+    const response = await fetch("https://your-backend.onrender.com/bellstate")
     const data = await response.json();
     const counts = data.counts;
 
