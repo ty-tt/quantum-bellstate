@@ -11,7 +11,7 @@ async function fetchBellState() {
 
   try {
     //const response = await fetch("http://localhost:8000/bellstate"); this one is for running project localy
-    const response = await fetch("https://your-backend.onrender.com/bellstate")
+    const response = await fetch("https://quantum-bellstate.onrender.com/")
     const data = await response.json();
     const counts = data.counts;
 
