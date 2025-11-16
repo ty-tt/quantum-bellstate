@@ -12,9 +12,10 @@ app = FastAPI(
 # Allow frontend to call API from any origin
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://quantum-bellstate-dbt7.vercel.app/"],
     allow_methods=["*"],
     allow_headers=["*"],
+    
 )
 
 
