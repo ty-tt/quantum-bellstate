@@ -6,8 +6,3 @@ This project contains:
 - running circuit noise-free simulation
 - sending simulation results throught fastapi
 - visualisating measurment results with bar chart ui
-
-You can use this to install all python libs needed to run this code:
-```bash
-pip install fastapi uvicorn qiskit qiskit_aer typing
-```
